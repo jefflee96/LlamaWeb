@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link type="text/css" rel="stylesheet" href="stylesheet_jlee.css"/>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>4 Boxes</title>
+        <meta name="description" content="">
+        <meta name="author" content="ink, cookbook, recipes">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) here  -->
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <link rel="apple-touch-icon" href="../img/touch-icon-iphone.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../img/touch-icon-ipad.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../img/touch-icon-iphone-retina.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../img/touch-icon-ipad-retina.png">
+        <link rel="apple-touch-startup-image" href="../img/splash.320x460.png" media="screen and (min-device-width: 200px) and (max-device-width: 320px) and (orientation:portrait)">
+        <link rel="apple-touch-startup-image" href="../img/splash.768x1004.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
+        <link rel="apple-touch-startup-image" href="../img/splash.1024x748.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
+
+        <!-- load Ink's CSS -->
+        <link rel="stylesheet" type="text/css" href="../css/ink-flex.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+
+        <!-- load Ink's CSS for IE8 -->
+        <!--[if lt IE 9 ]>
+            <link rel="stylesheet" href="../css/ink-ie.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+        <![endif]-->
+
+        <!-- test browser flexbox support and load legacy grid if unsupported -->
+        <script type="text/javascript" src="../js/modernizr.js"></script>
+        <script type="text/javascript">
+            Modernizr.load({
+              test: Modernizr.flexbox,
+              nope : '../css/ink-legacy.min.css'
+            });
+        </script>
+
+        <!-- load Ink's javascript files -->
+        <script type="text/javascript" src="../js/holder.js"></script>
+        <script type="text/javascript" src="../js/ink-all.min.js"></script>
+        <script type="text/javascript" src="../js/autoload.js"></script>
+
+        <style type="text/css">
+
+            body {
+                background: #ededed;
+            }
+
+            header h1 small:before  {
+                content: "|";
+                margin: 0 0.5em;
+                font-size: 1.6em;
+            }
+
+            footer {
+                background: #ccc;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div class="ink-grid">
+
+            <!--[if lt IE 9 ]>
+            <div class="ink-alert basic" role="alert">
+                <button class="ink-dismiss">&times;</button>
+                <p><strong>You are using an outdated Internet Explorer version.</strong>
+                    Please <a href="http://browsehappy.com/">upgrade to a modern browser</a> to improve your web experience.
+                </p>
+            </div>
+            <![endif]-->
+
+            <!-- Add your site or application content here -->
+
+            <header class="vertical-space">
+                <h1>Llamas<small>The greatest gift mankind has received.</small></h1>
+                <nav class="ink-navigation">
+                    <!--<ul class="menu horizontal black">
+                        <li class="active"><a href="#">About the Author</a></li>
+                        <li><a href="#">More Facts about Llamas</a></li>
+                        <li><a href="#">Sources</a></li>
+                    </ul>-->
+                </nav>
+            </header>
+            <div class="column-group gutters">
+                <div class="all-100">
+                    <h2>The Hope for Humanity:</h2>
+                    <img src="https://s10.postimg.org/c8h40ssm1/llama_big_pic2.png" alt="">
+                </div>
+                <div class="all-33 small-100 tiny-100">
+                    <h3>Why do you say that llama's are the hope for humanity? Are they really that amazing?
+
+                    </h3>
+                    <img src="https://s21.postimg.org/x342dq1mv/llama_feature_one.png" alt="">
+                    <p class="quarter-top-space">"Llamas are a symbol of peace. Just their very presence can grace a war-torn country into one of unity and harmony. With just a radiant grin, a llama can warm the cold, bitter hearts of enemies and allow compassion to develop. This is because a llama's majestic grin is irresistible and contagious. This grin, although seemingly simple, is a sign of happiness. When we're happy, we (as humans) are more likely to do good, and in the end, we are able to step closer to an ideal world with no violence."</p>
+                </div>
+                <div class="all-33 small-100 tiny-100">
+                    <h3>Okay, but llamas can't solve the problem of scarce supplies for a growing population.</h3>
+                    <img src="https://s17.postimg.org/fbmzbyxof/llama_feature_two.png" alt="">
+                    <p class="quarter-top-space">"Wrong. Llamas can actually emit light when they are perched upon a cliff. Similarly to how a llama's grin has the ability to transform the human condition, a llama can generate light when standing proud. What can you do with this light? Convert it into energy! You could grow plants during night time! Not only that, but you could absorb that light into solar panels! What's the science behind this? You see, sometimes you just have to wait because some answers are just waiting to be discovered by wonderful scientists around the world."</p>
+                </div>
+                <div class="all-33 small-100 tiny-100">
+                    <h3>Wow! I'm totally convinced that llamas are the hope for humanity. Tell me more!</h3>
+                    <img src="https://s21.postimg.org/7dskahkh3/llama_feature_three.png" alt="">
+                    <p class="quarter-top-space">"Awesome! It's people like you who help make the world a better place. You're capable of believing, and when you're capable of believing, you have the power to change. When you change, you speak your words with actions. I can tell you more, but it's best that the secrets of llamas are revealed slowly due to the limited capacity of "WOW" that the human mind can handle. However, you could learn more about me! I've made the website the way it is because it's a simple structure, and I believe in the statement that "less is more" (And I've just given myself a crash course on HTML and CSS [#godbless codeacademy]). While others may have beautiful websites and polished skills, I have the will to not give up and try my best despite the odds. I've used frameworks from INK because I read that it was a great place to start for beginners. I decided to go with this format because I believe it is a good way to showcase a few features of a majestic llama."</p>
+                </div>
+            </div>
+        </div>
+        <footer class="clearfix">
+            <div class="ink-grid">
+                <ul class="unstyled inline half-vertical-space">
+                    <li class="active"><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+                <p class="note"></p>
+            </div>
+        </footer>
+
+    </body>
+</html>
